@@ -11,9 +11,7 @@
 
 int main() 
 {
-
         //Inputs
-
         std::string message("Bgc-bfufb tegaedppqna ql aggv zge xof tegaedppfe'l lgjb.\n"
                                                 "Xof adpf vflqanfe logjbvn'x hf pdwqna d cgebv qn coqro xof tbdkfe ql mjlx d lpdbb tdex. Xof tbdkfe QL XOF\n"
                                                 "HGLL; qx'l kgje vjxk xg fnxfexdqn oqp ge ofe.\n"
@@ -35,7 +33,6 @@ int main()
 
         for (char c : message)
         {
-
                 auxChar = toupper(c);
                 switch(auxChar)
                 
@@ -121,18 +118,15 @@ int main()
                 default:
                     break;
                 }
-
         }
 
 
         // Sorting my vector and my alphabet-string using Selection Sort
-
         int auxNumber{};
         char auxCharacter{}; 
 
         for (size_t i{} ; i < alphabet.length() ; i++)
         {
-
                 size_t index{i};
 
                 for (size_t j{index + 1} ; j < alphabet.length() ; j++)
@@ -152,7 +146,6 @@ int main()
 
 
     //Setting up my code strings with lower case letters
-
         for (size_t a{} ; a < 25 ; a++)
                 freqLang.push_back(tolower(freqLang.at(a)));
 
@@ -163,7 +156,6 @@ int main()
 
 
         //Decoding my message
-    
         std::string decoMessage{};
         size_t currentPos{};
 
@@ -179,7 +171,6 @@ int main()
     
     
         //Printing the decoded message
-    
         std::cout << "The decoded message is: " << std::endl << std::endl;
     
         for (auto d : decoMessage)
@@ -188,5 +179,4 @@ int main()
         std::cout << std::endl;
 
         return 0;
-
 }
