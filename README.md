@@ -1,2 +1,2 @@
 # BamtangQuestions
-Problems to apply Bamtang Games
+Problems from Bamtang Games
